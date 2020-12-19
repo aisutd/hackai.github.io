@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body,
 html {
-  background-color: #00296b;
-  color: #eafdf8;
+  background-color: #252b33;
+  color: white;
 }
