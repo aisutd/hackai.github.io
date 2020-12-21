@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import About from '../components/about'
 import Why from '../components/why'
 import PastSponsors from '../components/past-sponsors'
+import FAQ from '../components/faq'
 
 const Home: FC = () => {
   return (
@@ -13,6 +14,7 @@ const Home: FC = () => {
       <About />
       <Why />
       <PastSponsors />
+      <FAQ />
     </div>
   )
 }
