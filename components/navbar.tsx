@@ -19,7 +19,7 @@ const Navbar: FC = () => {
   return (
     <div
       id='navbar'
-      className='py-6 w-full flex items-center justify-center fixed bg-ocean bg-opacity-75 top-0 z-50'>
+      className='py-6 w-full flex items-center justify-center fixed bg-gunmetal bg-opacity-80 top-0 z-50'>
       <div
         className='w-full sm:w-full md:w-full lg:w-2/3 xl:w-3/10 flex flex-wrap items-center justify-between px-8'
         style={{ maxWidth: '800px' }}>
