@@ -9,7 +9,7 @@ const Hero: FC = () => {
             HackAI
           </h1>
           <h3 className='py-1 text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl font-medium'>
-            October 17th, 9AM - 9PM CST
+            March 27-28, 2021
           </h3>
           <div className='w-full flex-row items-center'>
             <div className='text-lg mt-2 py-2'>
