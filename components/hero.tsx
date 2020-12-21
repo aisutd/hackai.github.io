@@ -3,9 +3,7 @@ import { FC } from 'react'
 const Hero: FC = () => {
   return (
     <div className='mt-32 flex flex-row items-center justify-center'>
-      <div
-        className='flex flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row items-center justify-between w-screen px-6'
-        style={{ maxWidth: '1300px' }}>
+      <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row items-center justify-between w-screen px-6 max-w-7xl'>
         <div className='p-4'>
           <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold'>
             HackAI
