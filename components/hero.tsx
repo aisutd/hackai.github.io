@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import { FC } from 'react'
 
 const Hero: FC = () => {
   return (
-    <div className='mt-32 flex flex-row items-center justify-center'>
+    <div className='mt-20 flex flex-row items-center justify-center'>
       <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row items-center justify-between w-screen px-6 max-w-7xl'>
         <div className='p-4'>
           <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold'>
@@ -18,9 +19,11 @@ const Hero: FC = () => {
                 Sign up to get notified when applications open.
               </span>
             </div>
-            <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
-              Sign up for updates
-            </button>
+            <Link href='//form.typeform.com/to/NJCsokJY'>
+              <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
+                Sign up for updates
+              </button>
+            </Link>
           </div>
         </div>
         <div className='lg:pr-20 xl:pr-20'>
