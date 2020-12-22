@@ -41,9 +41,9 @@ const Home: FC = () => {
         <title>HackAI: The Largest AI Hackathon at UT Dallas</title>
         <script type='application/ld+json'>{eventMeta}</script>
       </Head>
+      <Countdown />
       <Navbar />
       <Hero />
-      <Countdown />
       <About />
       <Why />
       <PastSponsors />

@@ -3,8 +3,8 @@ import { FC } from 'react'
 const PastSponsors: FC = () => {
   return (
     <div className='max-w-7xl mx-auto my-0 mt-32 mb-16' id='past-sponsors'>
-      <h2 className='text-center font-bold text-4xl mb-8'>Past Sponsors</h2>
-      <div className='grid grid-cols-3 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
+      <h2 className='text-center font-bold text-4xl mb-8 blue-gradtext'>Past Sponsors</h2>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
         <div className='flex flex-row items-center justify-center px-6'>
           <img src='/assets/sponsor-logos/atos.png' alt='' />
         </div>

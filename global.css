@@ -8,3 +8,7 @@ html {
   background-color: #252b33;
   color: white;
 }
+
+.blue-gradtext {
+  @apply bg-gradient-to-r text-transparent from-pink-100 to-wisteria bg-clip-text;
+}

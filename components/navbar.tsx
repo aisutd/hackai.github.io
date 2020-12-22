@@ -8,7 +8,7 @@ interface NavbarItemProps {
 
 export const NavbarItem: FC<NavbarItemProps> = ({ text, href }: NavbarItemProps) => {
   const link = (
-    <a className='link cursor-pointer font-medium text-xl text-gray-400 hover:text-gray-200'>
+    <a className='link cursor-pointer font-medium text-xl text-wisteria hover:text-gray-200'>
       {text}
     </a>
   )

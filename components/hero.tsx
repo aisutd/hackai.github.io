@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { FC } from 'react'
+import Count from 'react-countdown'
 
 const Hero: FC = () => {
   return (
     <div className='mt-20 flex flex-row items-center justify-center'>
       <div className='flex flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row items-center justify-between w-screen px-6 max-w-7xl'>
         <div className='p-4'>
-          <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold'>
+          <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r text-transparent from-blue-300 via-capri to-blue-500 bg-clip-text'>
             HackAI
           </h1>
           <h3 className='py-1 text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl font-medium'>
