@@ -17,12 +17,12 @@ const About: FC = () => {
             challenge students while providing value to sponsors.
           </p>
         </div>
-        <div className='py-4 px-6 col-span-1'>
+        <div className='py-4 px-auto sm:px-0 md:px-6 lg:px-6 xl:px-6 col-span-1'>
           <img src='/assets/whatishackai.jpg' alt='What is HackAI?' className='w-full' />
         </div>
       </div>
       <div className='max-w-7xl mx-auto my-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 sm:px-8 md:px-8 px-0'>
-        <div className='py-4 px-6 col-span-1'>
+        <div className='py-4 px-auto sm:px-0 md:px-6 lg:px-6 xl:px-6 col-span-1'>
           <img src='/assets/hackai-1.jpg' alt='HackAI participants coding' className='w-full' />
         </div>
         <div className='py-4 px-6 col-span-1 flex flex-col items-center justify-center'>
