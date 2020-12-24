@@ -17,7 +17,9 @@ export const NavbarItem: FC<NavbarItemProps> = ({ text, href }: NavbarItemProps)
 
 const Navbar: FC = () => {
   return (
-    <div id='navbar' className='py-6 w-full flex items-center justify-center'>
+    <div
+      id='navbar'
+      className='py-6 w-full flex items-center justify-center bg-black bg-opacity-10 mb-16'>
       <div
         className='w-full sm:w-full md:w-full lg:w-2/3 xl:w-3/10 flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row flex-wrap items-center justify-between px-8'
         style={{ maxWidth: '800px' }}>
