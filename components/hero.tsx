@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { FC } from 'react'
-import Count from 'react-countdown'
 
 const Hero: FC = () => {
   return (
