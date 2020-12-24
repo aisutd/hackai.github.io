@@ -8,6 +8,7 @@ import PastSponsors from '../components/past-sponsors'
 import FAQ from '../components/faq'
 import Footer from '../components/footer'
 import Countdown from '../components/countdown'
+import Attribution from '../components/attribution'
 
 const Home: FC = () => {
   const eventMeta = `
@@ -42,6 +43,7 @@ const Home: FC = () => {
         <script type='application/ld+json'>{eventMeta}</script>
       </Head>
       <Countdown />
+      {/* <Attribution /> */}
       <Navbar />
       <Hero />
       <About />

@@ -12,6 +12,7 @@ const Countdown: FC = () => {
       </span>
     )
   }
+
   return (
     <div className='text-center text-xl mx-auto py-2 bg-wisteria text-black select-none font-medium'>
       <span>Applications open in </span>
