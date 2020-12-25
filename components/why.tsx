@@ -5,7 +5,7 @@ const Why: FC = () => {
     <>
       <div className='max-w-7xl mx-auto my-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 sm:px-8 md:px-8 px-0'>
         <div className='py-4 px-6 col-span-1 flex flex-col items-center justify-center'>
-          <h2 className='text-center font-medium text-3xl mb-4 blue-gradtext'>
+          <h2 className='text-center font-medium text-3xl mb-4 purple-gradtext'>
             Why Attend HackAI?
           </h2>
           <p className='text-lg text-justify'>
@@ -24,7 +24,7 @@ const Why: FC = () => {
           <img src='/assets/sponsors.jpg' alt='HackAI sponsors' className='w-full' />
         </div>
         <div className='py-4 px-6 col-span-1 flex flex-col items-center justify-center'>
-          <h2 className='text-center font-medium text-3xl mb-4 blue-gradtext'>
+          <h2 className='text-center font-medium text-3xl mb-4 purple-gradtext'>
             Why Sponsor HackAI?
           </h2>
           <p className='text-lg text-justify'>

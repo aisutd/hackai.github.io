@@ -9,10 +9,6 @@ html {
   color: white;
 }
 
-.blue-gradtext {
-  @apply bg-gradient-to-r text-transparent from-pink-100 to-wisteria bg-clip-text;
-}
-
-.blue-gradtext-alt {
+.purple-gradtext {
   @apply bg-gradient-to-r text-transparent from-pink-300 to-wisteria bg-clip-text;
 }

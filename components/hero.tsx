@@ -14,7 +14,7 @@ const Hero: FC = () => {
           <span className='bg-gradient-to-r text-transparent from-blue-400 via-capri to-blue-500 bg-clip-text'>
             Hack
           </span>
-          <span className='blue-gradtext-alt'>AI</span>
+          <span className='purple-gradtext'>AI</span>
         </h1>
         <h3 className='py-1 text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl font-medium'>
           March 27-28, 2021
