@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  background-color: #252b33;
+  color: white;
+}
+
+.purple-gradtext {
+  @apply bg-gradient-to-r text-transparent from-pink-300 to-wisteria bg-clip-text;
+}
