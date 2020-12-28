@@ -34,7 +34,7 @@ const Footer: FC = () => {
             <img src='/assets/mail.svg' className='h-6' alt='mail' />
           </a>
         </div>
-        <div className='mt-8'>© 2020 AIS UTD. All rights reserved.</div>
+        <div className='mt-8'>© 2021 AIS UTD. All rights reserved.</div>
       </div>
     </footer>
   )
