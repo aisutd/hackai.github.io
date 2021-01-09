@@ -11,7 +11,7 @@ const faq: FAQ[] = [
   {
     q: 'How do I apply?',
     a:
-      'Thanks for your interest! Applications have not opened yet, but will open January 9, 2021. Please sign up for updates with the form in the header!',
+      'Thanks for your interest! Applications have not opened yet, but will open February 1, 2021. Please sign up for updates with the form in the header!',
   },
   {
     q: 'Do I need to be a CS major?',
