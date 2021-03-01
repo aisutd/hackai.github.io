@@ -20,8 +20,8 @@ const Navbar: FC = () => {
     <div id='navbar' className='w-full flex items-center justify-center bg-black bg-opacity-20'>
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 w-full max-w-3xl'>
         <NavbarItem text='Home' href='/' />
-        <NavbarItem text='Interest Form' href='//form.typeform.com/to/NJCsokJY' />
-        <NavbarItem text='Past Sponsors' href='/#past-sponsors' />
+        <NavbarItem text='Interest Form' href='https://form.typeform.com/to/f1pz8TeW' />
+        <NavbarItem text='Sponsors' href='/#sponsors' />
         {/* <NavbarItem text='Schedule' href='/' /> */}
         <NavbarItem text='FAQs' href='/#faqs' />
       </div>
