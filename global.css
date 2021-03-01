@@ -5,7 +5,15 @@
 
 body,
 html {
-  background-color: #252b33;
+  /* background-color: #252b33; */
+   /* background-image: './public/assets/background.png'; */
+   background-image: url('/assets/background.png');
+
+  height: 100%;
+
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover; 
   color: white;
 }
 
