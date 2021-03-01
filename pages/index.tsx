@@ -8,7 +8,6 @@ import Sponsors from '../components/sponsors'
 import FAQ from '../components/faq'
 import Footer from '../components/footer'
 import Countdown from '../components/countdown'
-import Attribution from '../components/attribution'
 
 const Home: FC = () => {
   return (
@@ -17,7 +16,6 @@ const Home: FC = () => {
         <title>HackAI: The Largest AI Hackathon at UT Dallas</title>
       </Head>
       <Countdown />
-      {/* <Attribution /> */}
       <Navbar />
       <Hero />
       <About />

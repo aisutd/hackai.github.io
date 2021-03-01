@@ -22,12 +22,12 @@ const Hero: FC = () => {
         <div className='text-lg mt-2 py-2 text-center'>
           The largest AI-themed hackathon at UT Dallas is back! <br />
           <span className='text-gray-300 text-md'>
-            Sign up and apply below!
+            Sign up closes on March 22, 2021 at 11:59 PM CST.
           </span>
         </div>
         <Link href='https://form.typeform.com/to/f1pz8TeW'>
           <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
-            Sign Up Here
+            Sign up as a hacker
           </button>
         </Link>
       </div>
