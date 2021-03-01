@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 import Navbar from '../components/navbar'
 import About from '../components/about'
 import Why from '../components/why'
-import PastSponsors from '../components/past-sponsors'
+import Sponsors from '../components/sponsors'
 import FAQ from '../components/faq'
 import Footer from '../components/footer'
 import Countdown from '../components/countdown'
@@ -22,7 +22,7 @@ const Home: FC = () => {
       <Hero />
       <About />
       <Why />
-      <PastSponsors />
+      <Sponsors />
       <FAQ />
       <Footer />
     </div>
