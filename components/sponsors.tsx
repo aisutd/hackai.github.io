@@ -11,6 +11,13 @@ const Sponsors: FC = () => {
         <div className='flex flex-row items-center justify-center px-6'>
           <img src='/assets/sponsor-logos/deepcognition.png' alt='' />
         </div>
+        <div className='flex flex-row items-center justify-center px-6'>
+          <img src='/assets/sponsor-logos/csdept.png' alt='' />
+        </div>
+        <br />
+        <div className='flex flex-row items-center justify-center px-6'>
+          <img src='/assets/sponsor-logos/aicenter.png' alt='' />
+        </div>
       </div>
 
       <br></br>
@@ -28,7 +35,7 @@ const Sponsors: FC = () => {
           <img src='/assets/sponsor-logos/deepcognition.png' alt='' />
         </div>
         <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/ecs.jpg' alt='' />
+          <img src='/assets/sponsor-logos/csdept.png' alt='' />
         </div>
         <div className='flex flex-row items-center justify-center px-6'>
           <img src='/assets/sponsor-logos/mavs.png' alt='' />
