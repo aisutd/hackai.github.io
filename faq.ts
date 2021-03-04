@@ -11,13 +11,13 @@ const faq: FAQ[] = [
   {
     q: 'How do I apply?',
     a:
-      'Thanks for your interest! Applications have not opened yet, but will open February 1, 2021. Please sign up for updates with the form in the header!',
+      'Thanks for your interest! You can apply by either clicking on the "Sign up as a hacker" button or clicking "Sign Up" at the top of the page!',
   },
   {
     q: 'Do I need to be a CS major?',
     a: 'We welcome all majors!',
   },
-  { q: 'How old do I have to be to participate?', a: 'You must be 18 or older to participate.' },
+  { q: 'Who can apply?', a: 'We\'re open to all UTD students over the age of 18!' },
   { q: 'How much does it cost to attend?', a: 'There is no cost to attend!' },
   { q: 'Is this a virtual or in-person event?', a: 'This is a fully virtual event.' },
   {
@@ -38,3 +38,4 @@ const faq: FAQ[] = [
 ]
 
 export default faq
+
