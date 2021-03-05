@@ -4,40 +4,46 @@ const Sponsors: FC = () => {
   return (
     <div className='max-w-7xl mx-auto my-0 mt-32 mb-16' id='sponsors'>
       <h2 className='text-center font-bold text-4xl mb-8 purple-gradtext'>Current Sponsors</h2>
-      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/openai.png' alt='' />
+      <div className='md:grid md:grid-cols-2 lg:grid-cols-2 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
+        <div className='flex flex-row items-center justify-center p-12'>
+          <img src='/assets/sponsor-logos/deepcognition.png' alt='Deep Cognition' />
         </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/deepcognition.png' alt='' />
+        <div className='flex flex-row items-center justify-center p-4'>
+          <img src='/assets/sponsor-logos/openai.png' alt='OpenAI' />
+        </div>
+        <div className='md:flex md:col-span-2'>
+          <div className='flex flex-row items-center justify-center flex-1 pl-8 p-2'>
+            <img
+              src='/assets/sponsor-logos/csdept.png'
+              alt='Department of Computer Science at The University of Texas at Dallas'
+            />
+          </div>
+          <div className='flex flex-row items-center justify-center flex-1 p-8'>
+            <img
+              src='/assets/sponsor-logos/aicenter.png'
+              alt='Center for Applied AI &amp; Machine Learning at The University of Texas at Dallas'
+            />
+          </div>
         </div>
       </div>
 
       <br></br>
-
-      {/* /////////////////////////////////////////////////// */}
-      <h2  className='text-center font-bold text-4xl mb-8 purple-gradtext'>Past Sponsors</h2>
-      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/atos.png' alt='' />
+      <h2 className='text-center font-bold text-4xl mb-8 purple-gradtext'>Past Sponsors</h2>
+      <div className='md:grid md:grid-cols-2 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
+        <div className='flex flex-row items-center justify-center p-12'>
+          <img src='/assets/sponsor-logos/atos.png' alt='Atox' />
         </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/cbre.png' alt='' />
+        <div className='flex flex-row items-center justify-center p-12'>
+          <img src='/assets/sponsor-logos/cbre.png' alt='CBRE' />
         </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/deepcognition.png' alt='' />
+        <div className='flex flex-row items-center justify-center px-16'>
+          <img src='/assets/sponsor-logos/mavs.png' alt='Dallas Mavericks' />
         </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/ecs.jpg' alt='' />
-        </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/mavs.png' alt='' />
-        </div>
-        <div className='flex flex-row items-center justify-center px-6'>
-          <img src='/assets/sponsor-logos/signapay.jpeg' alt='' />
+        <div className='flex flex-row items-center justify-center p-4'>
+          <img src='/assets/sponsor-logos/signapay.jpeg' alt='SignaPay' />
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
