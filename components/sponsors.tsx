@@ -5,11 +5,16 @@ const Sponsors: FC = () => {
     <div className='max-w-7xl mx-auto my-0 mt-32 mb-16' id='sponsors'>
       <h2 className='text-center font-bold text-4xl mb-8 purple-gradtext'>Current Sponsors</h2>
       <div className='md:grid md:grid-cols-2 lg:grid-cols-2 max-w-4xl mx-auto my-0 px-4 py-8 grid-flow-row bg-white'>
-        <div className='flex flex-row items-center justify-center p-12'>
-          <img src='/assets/sponsor-logos/deepcognition.png' alt='Deep Cognition' />
-        </div>
-        <div className='flex flex-row items-center justify-center p-4'>
-          <img src='/assets/sponsor-logos/openai.png' alt='OpenAI' />
+        <div className='md:flex md:col-span-2'>
+          <div className='flex flex-row items-center justify-center flex-1 p-12'>
+            <img src='/assets/sponsor-logos/deepcognition.png' alt='Deep Cognition' />
+          </div>
+          <div className='flex flex-row items-center justify-center flex-1 p-4'>
+            <img src='/assets/sponsor-logos/openai.png' alt='OpenAI' />
+          </div>
+          <div className='flex flex-row items-center justify-center flex-1 p-4'>
+            <img src='/assets/sponsor-logos/signapay.jpeg' alt='SignaPay' />
+          </div>
         </div>
         <div className='md:flex md:col-span-2'>
           <div className='flex flex-row items-center justify-center flex-1 pl-8 p-2'>
@@ -36,12 +41,15 @@ const Sponsors: FC = () => {
         <div className='flex flex-row items-center justify-center p-12'>
           <img src='/assets/sponsor-logos/cbre.png' alt='CBRE' />
         </div>
-        <div className='flex flex-row items-center justify-center px-16'>
-          <img src='/assets/sponsor-logos/mavs.png' alt='Dallas Mavericks' />
+        <div className='md:flex md:col-span-3'>
+          <div className='flex flex-row items-center justify-center flex-1 md:px-64'>
+            <img src='/assets/sponsor-logos/mavs.png' alt='Dallas Mavericks' />
+          </div>
         </div>
-        <div className='flex flex-row items-center justify-center p-4'>
+
+        {/* <div className='flex flex-row items-center justify-center p-4'>
           <img src='/assets/sponsor-logos/signapay.jpeg' alt='SignaPay' />
-        </div>
+        </div> */}
       </div>
     </div >
   )
