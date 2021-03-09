@@ -32,8 +32,6 @@ const Hero: FC = () => {
         </Link>
         <br />
         <br />
-        <h2 className='text-center font-medium text-3xl mb-4 purple-gradtext'>Promo Video</h2>
-        <iframe margin-right="auto" margin-left="auto" width="760" height="415" src="https://www.youtube.com/embed/CmlHXa9AKUM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
       </div>
     </div>
