@@ -30,6 +30,9 @@ const Hero: FC = () => {
             Sign up as a hacker
           </button>
         </Link>
+        <br />
+        <br />
+
       </div>
     </div>
   )
