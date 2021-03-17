@@ -26,16 +26,6 @@ const faq: FAQ[] = [
       'Teams at HackAI can have a maximum of 5 members. If you already have team members in mind while signing up, you can include it in your application. Otherwise, you can form teams the day of the hackathon by meeting other participants in the Discord!',
   },
   {
-    q: 'What are Standard challenges?',
-    a:
-      'While AIS will incorporate competition challenges of our own, we highly encourage our challenge sponsors to bring a unique AI challenge to the table. It could potentially be themed by the mission of the company, a specific domain, a pressing global issue, etc. The challenge should make the hackers critically and ethically think of solutions pertaining to the problem at hand. All competitions currently will only support supervised machine learning tasks. Major challenges are designed to be larger, 24-hour tasks with a larger prize pool, while minor challenges are smaller, 8-hour competitions.',
-  },
-  {
-    q: 'What are Wildcard challenges?',
-    a:
-      'The major and minor wildcard challenges come into place when one wants to break from the norm. The wildcard system helps account for the fact that not all sponsors may wish to have their competition be a supervised learning task, and gives them the flexibility of providing a different type of competition challenge. In this wildcard pool, companies will be responsible for providing their own judges for challenges as well as prizes limited to one winning team.',
-  },
-  {
     q: 'Do I need to have a lot of prior experience in AI?',
     a: 'Not at all! The purpose of this hackathon is to introduce AI to everyone, so as a result you do not need experience with AI to attend. If you want to submit a project regardless of experience level, we have various "tracks" categorized by relative difficulty level by which projects submitted will be judged, and we will also have workshops to help beginners out. All you need is a drive and passion to learn!'
   },
