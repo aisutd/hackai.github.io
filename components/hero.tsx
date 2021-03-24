@@ -25,7 +25,7 @@ const Hero: FC = () => {
             Sign up closes on March 22, 2021 at 11:59 PM CST.
           </span>
         </div>
-        <Link href='https://form.typeform.com/to/f1pz8TeW'>
+        <Link href='https://discord.com/invite/QPwAVZtTfp'>
           <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
             Sign up as a hacker
           </button>
