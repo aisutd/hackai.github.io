@@ -22,7 +22,7 @@ const Hero: FC = () => {
         <div className='text-lg mt-2 py-2 text-center'>
           The largest AI-themed hackathon at UT Dallas is back! <br />
           <span className='text-gray-300 text-md'>
-            Sign up closes on March 22, 2021 at 11:59 PM CST.
+            Hackathon closes on March 28, 2021 at 12:00 PM CDT.
           </span>
         </div>
         <Link href='https://discord.com/invite/QPwAVZtTfp'>
