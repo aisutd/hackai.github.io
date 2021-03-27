@@ -24,6 +24,9 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+      # Add spreadsheet ID
+      - name: Set spreadsheet ID
+        run: echo "EVENT_SPREADSHEET=$(echo 1NT8dXTk0qYKzXurVsmp9ZY6x3h1_jnvraxBpzZXqfLs)" >> $GITHUB_ENV
       # Setup gcloud
       - uses: google-github-actions/setup-gcloud@master
         with:
