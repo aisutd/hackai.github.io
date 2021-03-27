@@ -21,10 +21,13 @@ const Hero: FC = () => {
         </h3>
         <div className='text-lg mt-2 py-2 text-center'>
           The largest AI-themed hackathon at UT Dallas is back! <br />
+          <span className='text-gray-300 text-md'>
+            Submissions close on March 28, 2021 at 11:00 AM CDT.
+          </span>
         </div>
         <Link href='/discord'>
           <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
-            Join the event Discord &rarr;
+            Join the Discord server
           </button>
         </Link>
         <br />
