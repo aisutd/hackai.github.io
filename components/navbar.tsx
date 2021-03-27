@@ -18,9 +18,8 @@ export const NavbarItem: FC<NavbarItemProps> = ({ text, href }: NavbarItemProps)
 const Navbar: FC = () => {
   return (
     <div id='navbar' className='w-full flex items-center justify-center bg-black bg-opacity-20'>
-      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 w-full max-w-3xl'>
-        <NavbarItem text='Home' href='/' />
-        <NavbarItem text='Sign Up' href='https://form.typeform.com/to/f1pz8TeW' />
+      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 w-full max-w-3xl'>
+        <NavbarItem text='Submit project' href='https://utd-hackai-21.devpost.com/' />
         <NavbarItem text='Sponsors' href='/#sponsors' />
         <NavbarItem text='FAQs' href='/#faqs' />
       </div>

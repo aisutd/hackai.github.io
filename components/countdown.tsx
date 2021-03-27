@@ -8,16 +8,16 @@ const Countdown: FC = () => {
     const minutes = props.minutes > 1 ? 'minutes' : 'minute'
     return (
       <span>
-        {/* {props.days} {day + " "} */}
-        {/* {props.hours} {hour + " "}
-        {props.minutes} {minutes} */}
+        {props.hours} {hour + " "}
+        {props.minutes} {minutes}
       </span>
     )
   }
 
   return (
     <div className='text-center text-xl mx-auto py-2 bg-wisteria text-black select-none font-medium'>
-      <span>Applications now open! </span>
+      <span>Devpost submissions close in </span>
+      <Count date={1616947200000} renderer={renderer} />
     </div>
   )
 }
