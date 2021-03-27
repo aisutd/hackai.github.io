@@ -18,8 +18,13 @@ const About: FC = () => {
           </p>
         </div>
         <div className='py-4 px-auto sm:px-0 md:px-6 lg:px-6 xl:px-6 col-span-1'>
-          <iframe margin-right="auto" margin-left="auto" width="560" height="315" src="https://www.youtube.com/embed/CmlHXa9AKUM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-
+          <iframe
+            className='w-full h-full'
+            style={{ minHeight: '20rem' }}
+            src='https://www.youtube.com/embed/CmlHXa9AKUM'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen></iframe>
         </div>
       </div>
       <div className='max-w-7xl mx-auto my-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 sm:px-8 md:px-8 px-0'>

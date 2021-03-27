@@ -25,14 +25,13 @@ const Hero: FC = () => {
             Submissions close on March 28, 2021 at 11:00 AM CDT.
           </span>
         </div>
-        <Link href='https://discord.com/invite/QPwAVZtTfp'>
+        <Link href='/discord'>
           <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
             Join the Discord server
           </button>
         </Link>
         <br />
         <br />
-
       </div>
     </div>
   )
