@@ -8,7 +8,6 @@ const Countdown: FC = () => {
     const minutes = props.minutes > 1 ? 'minutes' : 'minute'
     return (
       <span>
-        {props.days} {day + " "}
         {props.hours} {hour + " "}
         {props.minutes} {minutes}
       </span>
