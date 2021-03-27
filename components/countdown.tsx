@@ -3,21 +3,20 @@ import Count, { CountdownRendererFn } from 'react-countdown'
 
 const Countdown: FC = () => {
   const renderer: CountdownRendererFn = props => {
-    const day = props.days > 1 ? 'days' : 'day'
-    const hour = props.hours > 1 ? 'hours' : 'hour'
-    const minutes = props.minutes > 1 ? 'minutes' : 'minute'
+    if (props.completed) return <span>Submissions are closed!</span>
     return (
       <span>
-        {/* {props.days} {day + " "} */}
-        {/* {props.hours} {hour + " "}
-        {props.minutes} {minutes} */}
+        Project submissions due in&nbsp;
+        {props.days >= 1 ? new String(props.days).padStart(2, '0') + ':' : ''}
+        {new String(props.hours).padStart(2, '0')}:{new String(props.minutes).padStart(2, '0')}:
+        {new String(props.seconds).padStart(2, '0')}!
       </span>
     )
   }
 
   return (
     <div className='text-center text-xl mx-auto py-2 bg-wisteria text-black select-none font-medium'>
-      <span>Applications now open! </span>
+      <Count date={new Date(1616947200000)} renderer={renderer} />
     </div>
   )
 }
