@@ -13,7 +13,12 @@ const Home: FC = () => {
   return (
     <div>
       <Head>
+        <link rel='icon' type='image/svg+xml' href='/assets/hackaibrain.png' />
         <title>HackAI: The Largest AI Hackathon at UT Dallas</title>
+        <meta
+          name='description'
+          content='Welcome to HackAI, the largest AI Hackathon at UT Dallas'
+        />
       </Head>
       <Countdown />
       <Navbar />

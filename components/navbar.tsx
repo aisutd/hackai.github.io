@@ -21,8 +21,9 @@ const Navbar: FC = () => {
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 w-full max-w-3xl'>
         <NavbarItem text='Home' href='/' />
         <NavbarItem text='FAQs' href='/#faqs' />
-        <NavbarItem text='Schedule' href='/schedule' />
+        {/* <NavbarItem text='Schedule' href='/schedule' /> */}
         <NavbarItem text='Discord' href='/discord' />
+        <NavbarItem text='Apply' href='/apply' />
       </div>
     </div>
   )

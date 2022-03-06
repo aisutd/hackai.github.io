@@ -6,7 +6,7 @@ interface FAQ {
 const faq: FAQ[] = [
   {
     q: 'When and where is HackAI?',
-    a: 'HackAI will take place virtually, on March 27th to 28th, 2021.',
+    a: 'HackAI will be held in-person, on April 8th to 9th, 2022.',
   },
   {
     q: 'How do I apply?',
