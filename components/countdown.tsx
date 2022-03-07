@@ -16,7 +16,7 @@ const Countdown: FC = () => {
 
   return (
     <div className='text-center text-xl mx-auto py-2 bg-wisteria text-black select-none font-medium'>
-      <Count date={new Date(1649480399000)} renderer={renderer} />
+      <Count date={new Date(1648857599000)} renderer={renderer} />
     </div>
   )
 }

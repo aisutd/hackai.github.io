@@ -22,7 +22,7 @@ const Hero: FC = () => {
         <div className='text-lg mt-2 py-2 text-center'>
           The largest AI-themed hackathon at UT Dallas is back! <br />
           <span className='text-gray-300 text-md'>
-            Applications close on April 8, 2022 at 11:59 PM CDT.
+            Applications close on April 1, 2022 at 11:59 PM CDT.
           </span>
           {/* <span className='text-gray-300 text-md'>
             Submissions close on March 28, 2021 at 11:00 AM CDT.
