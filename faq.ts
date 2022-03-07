@@ -19,7 +19,7 @@ const faq: FAQ[] = [
   },
   { q: 'Who can apply?', a: "We're open to all UTD students over the age of 18!" },
   { q: 'How much does it cost to attend?', a: 'There is no cost to attend!' },
-  { q: 'Is this a virtual or in-person event?', a: 'This is a fully virtual event.' },
+  { q: 'Is this a virtual or in-person event?', a: 'This is an in-person only event.' },
   {
     q: 'How will team formation work?',
     a:
