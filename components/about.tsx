@@ -21,7 +21,7 @@ const About: FC = () => {
           <iframe
             className='w-full h-full'
             style={{ minHeight: '20rem' }}
-            src='https://www.youtube.com/embed/CmlHXa9AKUM'
+            src='https://www.youtube.com/embed/Da4xucNa1zs'
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen></iframe>
