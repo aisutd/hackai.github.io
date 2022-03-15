@@ -14,10 +14,19 @@ const faq: FAQ[] = [
       'Thanks for your interest! You can apply by either clicking on the "Sign up as a hacker" button or clicking "Sign Up" at the top of the page!',
   },
   {
+    q: 'How do I apply?',
+    a:
+      'Thanks for your interest! You can apply by either clicking on the "Sign up as a hacker" button or clicking "Sign Up" at the top of the page!',
+  },
+  {
     q: 'Do I need to be a CS major?',
     a: 'We welcome all majors!',
   },
   { q: 'Who can apply?', a: "We're open to all UTD students over the age of 18!" },
+  { 
+    q: 'Does everyone get accepted into HackAI?',
+    a: 'Unfortunately, due to some constraints on our end, we are only able to host 200 hackers for our hackathon this year.' 
+  },
   { q: 'How much does it cost to attend?', a: 'There is no cost to attend!' },
   { q: 'Is this a virtual or in-person event?', a: 'This is an in-person only event.' },
   {
