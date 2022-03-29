@@ -17,22 +17,22 @@ const Hero: FC = () => {
           <span className='purple-gradtext'>AI</span>
         </h1>
         <h3 className='py-1 text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl font-medium'>
-          April 9-10, 2022
+          To Be Announced!
         </h3>
         <div className='text-lg mt-2 py-2 text-center'>
-          The largest AI-themed hackathon at UT Dallas is back! <br />
-          <span className='text-gray-300 text-md'>
+          The largest AI-themed hackathon at UT Dallas will be back! <br />
+          {/* <span className='text-gray-300 text-md'>
             Applications close on April 1, 2022 at 11:59 PM CDT.
-          </span>
+          </span> */}
           {/* <span className='text-gray-300 text-md'>
             Submissions close on March 28, 2021 at 11:00 AM CDT.
           </span> */}
         </div>
-        <Link href='/apply'>
+        {/* <Link href='/apply'>
           <button className='mt-6 rounded-full py-2 px-8 text-lg bg-capri text-black hover:bg-blue-400 hover:text-black text-ocean font-medium'>
             Apply Now!
           </button>
-        </Link>
+        </Link> */}
         <br />
         <br />
       </div>

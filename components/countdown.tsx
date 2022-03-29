@@ -2,7 +2,9 @@ import { FC } from 'react'
 import Count, { CountdownRendererFn } from 'react-countdown'
 
 const Countdown: FC = () => {
+  
   const renderer: CountdownRendererFn = props => {
+    return <span>Hackathon postponed to Fall 2022!</span>
     if (props.completed) return <span>Submissions are closed!</span>
     return (
       <span>
